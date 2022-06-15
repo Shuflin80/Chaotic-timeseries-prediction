@@ -62,7 +62,7 @@ pp.plot_predictions(pred1, y_true, 'Lorenz series prediction for h=25 with one t
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_17_0.png)
+![png](README_files/README_17_0.png)
     
 
 
@@ -77,7 +77,7 @@ pp.plot_predictions(pred2, y_true, 'Lorenz series prediction for h=100 with one 
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_20_0.png)
+![png](README_files/README_20_0.png)
     
 
 
@@ -88,7 +88,7 @@ plot_metrics(params4, 'lorenz_all_samples_100_one_traj')
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_21_0.png)
+![png](README_files/README_21_0.png)
     
 
 
@@ -97,7 +97,7 @@ plot_metrics(params4, 'lorenz_all_samples_100_one_traj')
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_21_2.png)
+![png](README_files/README_21_2.png)
     
 
 
@@ -106,7 +106,7 @@ plot_metrics(params4, 'lorenz_all_samples_100_one_traj')
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_21_4.png)
+![png](README_files/README_21_4.png)
     
 
 
@@ -126,7 +126,7 @@ plot_predictions(pred_vis, y_true, 'Lorenz series prediction for h=100 with one 
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_23_1.png)
+![png](README_files/README_23_1.png)
     
 
 
@@ -155,7 +155,7 @@ plt.plot(y_true[:1000], alpha=0.7)
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_26_2.png)
+![png](README_files/README_26_2.png)
     
 
 
@@ -179,7 +179,7 @@ plt.plot(y_true[:1000], alpha=0.7)
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_28_1.png)
+![png](README_files/README_28_1.png)
     
 
 
@@ -203,7 +203,7 @@ print(sum(params_lorenz_mot1[2]))
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_29_0.png)
+![png](README_files/README_29_0.png)
     
 
 
@@ -212,7 +212,7 @@ print(sum(params_lorenz_mot1[2]))
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_29_2.png)
+![png](README_files/README_29_2.png)
     
 
 
@@ -221,7 +221,7 @@ print(sum(params_lorenz_mot1[2]))
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_29_4.png)
+![png](README_files/README_29_4.png)
     
 
 
@@ -254,7 +254,7 @@ plt.plot(el_test[:1000], alpha=0.7)
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_33_1.png)
+![png](README_files/README_33_1.png)
     
 
 
@@ -279,7 +279,7 @@ plt.plot(el_test[:1000], alpha=0.7)
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_36_1.png)
+![png](README_files/README_36_1.png)
     
 
 
@@ -304,7 +304,7 @@ plt.plot(el_test[:1200], alpha=0.7)
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_39_1.png)
+![png](README_files/README_39_1.png)
     
 
 
@@ -336,7 +336,7 @@ plt.plot(el_test[:1000], alpha=0.7)
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_43_1.png)
+![png](README_files/README_43_1.png)
     
 
 
@@ -369,7 +369,7 @@ plot_metrics(params_no_noise_single1, 'electricity_clustered_extended_100_one_tr
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_48_0.png)
+![png](README_files/README_48_0.png)
     
 
 
@@ -378,7 +378,7 @@ plot_metrics(params_no_noise_single1, 'electricity_clustered_extended_100_one_tr
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_48_2.png)
+![png](README_files/README_48_2.png)
     
 
 
@@ -387,7 +387,7 @@ plot_metrics(params_no_noise_single1, 'electricity_clustered_extended_100_one_tr
 
 
     
-![png](Multi-step%20ahead%20chaotic%20timeseries%20prediction_files/Multi-step%20ahead%20chaotic%20timeseries%20prediction_48_4.png)
+![png](README_files/README_48_4.png)
     
 
 
