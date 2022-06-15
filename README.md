@@ -32,9 +32,7 @@ Taken from: https://www.kaggle.com/robikscube/hourly-energy-consumption?select=A
 el_train, el_test = pp.el_train, pp.el_test
 ```
 
-I've looked at several sets and found electricity consumption series from https://www.kaggle.com/robikscube/hourly-energy-consumption?select=AEP_hourly.csv to be rather more feasible to predict compared to some other sets, according to the entropy-complexity plane below
-
-![image.png](attachment:image.png)
+I've looked at several sets and found electricity consumption series from https://www.kaggle.com/robikscube/hourly-energy-consumption?select=AEP_hourly.csv to be rather more feasible to predict compared to some other sets, according to the entropy-complexity plane
 
 # Pattern and Sample/Motif sets:
 
@@ -62,7 +60,7 @@ pp.plot_predictions(pred1, y_true, 'Lorenz series prediction for h=25 with one t
 
 
     
-![png](README_files/README_17_0.png)
+![png](README_files/README_16_0.png)
     
 
 
@@ -77,7 +75,7 @@ pp.plot_predictions(pred2, y_true, 'Lorenz series prediction for h=100 with one 
 
 
     
-![png](README_files/README_20_0.png)
+![png](README_files/README_19_0.png)
     
 
 
@@ -88,7 +86,7 @@ plot_metrics(params4, 'lorenz_all_samples_100_one_traj')
 
 
     
-![png](README_files/README_21_0.png)
+![png](README_files/README_20_0.png)
     
 
 
@@ -97,7 +95,7 @@ plot_metrics(params4, 'lorenz_all_samples_100_one_traj')
 
 
     
-![png](README_files/README_21_2.png)
+![png](README_files/README_20_2.png)
     
 
 
@@ -106,7 +104,7 @@ plot_metrics(params4, 'lorenz_all_samples_100_one_traj')
 
 
     
-![png](README_files/README_21_4.png)
+![png](README_files/README_20_4.png)
     
 
 
@@ -126,7 +124,7 @@ plot_predictions(pred_vis, y_true, 'Lorenz series prediction for h=100 with one 
 
 
     
-![png](README_files/README_23_1.png)
+![png](README_files/README_22_1.png)
     
 
 
@@ -155,7 +153,7 @@ plt.plot(y_true[:1000], alpha=0.7)
 
 
     
-![png](README_files/README_26_2.png)
+![png](README_files/README_25_2.png)
     
 
 
@@ -179,7 +177,7 @@ plt.plot(y_true[:1000], alpha=0.7)
 
 
     
-![png](README_files/README_28_1.png)
+![png](README_files/README_27_1.png)
     
 
 
@@ -203,7 +201,7 @@ print(sum(params_lorenz_mot1[2]))
 
 
     
-![png](README_files/README_29_0.png)
+![png](README_files/README_28_0.png)
     
 
 
@@ -212,7 +210,7 @@ print(sum(params_lorenz_mot1[2]))
 
 
     
-![png](README_files/README_29_2.png)
+![png](README_files/README_28_2.png)
     
 
 
@@ -221,7 +219,7 @@ print(sum(params_lorenz_mot1[2]))
 
 
     
-![png](README_files/README_29_4.png)
+![png](README_files/README_28_4.png)
     
 
 
@@ -254,7 +252,7 @@ plt.plot(el_test[:1000], alpha=0.7)
 
 
     
-![png](README_files/README_33_1.png)
+![png](README_files/README_32_1.png)
     
 
 
@@ -279,7 +277,7 @@ plt.plot(el_test[:1000], alpha=0.7)
 
 
     
-![png](README_files/README_36_1.png)
+![png](README_files/README_35_1.png)
     
 
 
@@ -304,7 +302,7 @@ plt.plot(el_test[:1200], alpha=0.7)
 
 
     
-![png](README_files/README_39_1.png)
+![png](README_files/README_38_1.png)
     
 
 
@@ -336,7 +334,7 @@ plt.plot(el_test[:1000], alpha=0.7)
 
 
     
-![png](README_files/README_43_1.png)
+![png](README_files/README_42_1.png)
     
 
 
@@ -369,7 +367,7 @@ plot_metrics(params_no_noise_single1, 'electricity_clustered_extended_100_one_tr
 
 
     
-![png](README_files/README_48_0.png)
+![png](README_files/README_47_0.png)
     
 
 
@@ -378,7 +376,7 @@ plot_metrics(params_no_noise_single1, 'electricity_clustered_extended_100_one_tr
 
 
     
-![png](README_files/README_48_2.png)
+![png](README_files/README_47_2.png)
     
 
 
@@ -387,7 +385,7 @@ plot_metrics(params_no_noise_single1, 'electricity_clustered_extended_100_one_tr
 
 
     
-![png](README_files/README_48_4.png)
+![png](README_files/README_47_4.png)
     
 
 
